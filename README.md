@@ -1,5 +1,12 @@
 # LearningGo2024
 
+## 28.12.2023
+To speed up go on Windows without disabling the antivirus.
+1. Add the working dir to the Avira exclusion list
+2. powershell
+`$env:GOTMPDIR = "C:\Temp\GoBuilds"`
+3. `go run -work .\hello.go
+
 ## 27.12.2023
 I figured out what was causing the slowness after running the same build commands on 10 years old Mac Book Pro.
 
