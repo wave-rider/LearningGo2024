@@ -1,5 +1,6 @@
 package main
 import "fmt"
+import "rsc.io/quote"
 
 func main() {
 	fmt.Println("Hello, World!")
@@ -8,5 +9,7 @@ func main() {
 	if x > 18 {
 		fmt.Println("Allowed ")
 	}
+	// From https://go.dev/doc/tutorial/getting-started#install
+	fmt.Println(quote.Go())
 
 }
