@@ -1,5 +1,13 @@
 # LearningGo2024
 
+## 29.12.2023
+Add a new system variable `GOTMPDIR`
+1. Edit the system environment variables.
+2. Go to the `Advanced` tab
+3. Click `Environment variables`
+4. System Variables -> New -> `GOTMPDIR=C:\Temp\GoBuilds`
+
+
 ## 28.12.2023
 To speed up go on Windows without disabling the antivirus.
 1. Add the working dir to the Avira exclusion list
